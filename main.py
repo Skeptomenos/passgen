@@ -1,6 +1,5 @@
 #!/usr/bin/python
-import getparameter
-import generator
+from src import generator, getparameter
 
 passwort = ""
 while len(passwort) < int(getparameter.pwlength):

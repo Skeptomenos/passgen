@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import getparameter
+from src import getparameter
 import random
 #import string
 
